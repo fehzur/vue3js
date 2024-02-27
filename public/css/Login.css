@@ -1,0 +1,177 @@
+@keyframes avion{
+    to{
+        right: 110%;
+    }
+    from{
+        right: -15%;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+
+#body{
+    overflow: hidden;
+    margin: 0;
+    background-image: url(../image/login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    background: rgba(17, 34, 85, 0.89);
+    justify-content: space-between;
+    width: 100%;
+}
+.avion img{
+    animation-name: avion;
+    position: absolute;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    width: 10vw;
+}
+.navmenu ul{
+    display: flex;
+    padding:0;
+}
+.navbar ul li{
+    padding-left:5%;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-size: 1vw;
+}
+.navbar a:hover{
+    color: red;
+}
+.navbar li:hover{
+    transform: scale(1.2);
+}
+fieldset{
+    text-align: center;
+    background: #003cff71;
+    font-size: 1vw;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+fieldset tr{
+    display: flex;
+    justify-content: space-between;
+}
+.body input{
+    width: 90%;
+    box-sizing: border-box;
+    padding: 1.5%;
+    padding-left: 5%;
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-color: #bbb;
+    outline: none;
+}
+#login{
+    width: 20%;
+    text-align: left;
+    border: none;
+    font-size:1vw;
+}
+.body h3{
+    color: #aaa;
+    font-size: 1vw;
+}
+.body h2{
+    color: #aaa;
+    font-size: 1vw;
+}
+.body h1{
+    font-size: 3vw;
+    color: #444;
+}
+i{
+    position: relative;
+    left:-44vw;
+    border-right: 0.5px solid #bbb;
+    box-sizing: border-box;
+    padding-right: 10px;
+    color: #BBB;
+    font-size: 0.8vw;
+}
+.logo img{
+    width: 5vw;
+}
+fieldset a{
+    text-decoration: none;
+    color: red;
+}
+.body{
+    margin-left: 50vw;
+    margin-right: 5px;
+    margin-top: 10%;
+    margin-top: 10%;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: transparent;
+}
+table td{
+    padding-top: 5%;
+    color: white;
+}
+.nul{
+    text-align: center;
+}
+.icone h3{
+    margin-top: 8%;
+}
+.icone img{
+    width: 4%;
+    margin-right: 4%;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 952px){
+    #body{
+        background: url(../image/abstract-flowing-lines-background.jpg);
+        background-size: 600VW;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    .body{
+        text-align: center;
+        margin: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: grid;
+        place-items: center;
+        height: 80vh;
+    }
+    .avion img{
+        display: none;
+    }
+    i{
+        font-size: 4vw;
+        left:-50px;
+        top: 6px;
+        border: none;
+    }
+    #login{
+        font-size: 2vw;
+    }
+    .body h3{
+        font-size: 2vw;
+    }
+    .body h2{
+        font-size:2vw;
+    }
+    .navbar ul li a{
+        display: block;
+        font-size: 2vw;
+    }
+    .body input{
+        width: 60%;
+    }
+}
+

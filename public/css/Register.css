@@ -1,0 +1,121 @@
+#body{
+    margin-top: -160px;
+    background-image: url(../image/inscriptions.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+.navmenu ul{
+    display: flex;
+    margin-right: 100px;
+}
+.navbar ul li{
+    padding-left:5%;
+    list-style-type: none;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-size: 1vw;
+}
+.navbar a:hover{
+    color: red;
+}
+fieldset{
+    text-align: center;
+    background: rgba(10, 10, 250, 0.753);
+    font-size: 1vw;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    border: none;
+}
+fieldset tr{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 5vw;
+}
+.body{
+    margin-left: 6.4vw;
+    margin-right: 50%;
+    margin-top: 12%;
+    background-color: transparent;
+}
+table td{
+    padding-top: 5%;
+}
+.nul{
+    text-align: center;
+}
+fieldset input:hover{
+    border: none;
+}
+input{
+    width: 65%;
+    padding: 1%;
+    margin: 2% 0;
+    border: none;
+    border-bottom: 1px solid #bbb;
+}
+.body{
+    color: #555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.body h1{
+    color: #333;
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+.body p{
+    font-size: 1vw;
+}
+#check{
+    margin:0;
+    width: 2%;
+    margin-right: 2%;
+}
+input i{
+    font-size: 1vw;
+}
+.check{
+    text-align: left;
+    display: flex;
+    margin-left: 7.5vw;
+}
+@media screen and (max-width: 952px){
+    #body{
+        background: url(../image/abstract-flowing-lines-background.jpg);
+        background-size: 500vw;
+    }
+    .body{
+        margin: 0;
+    }
+    .body h1{
+        color: #CCC;
+        font-size: 3vw;
+    }
+    .body p{
+        color: #DDD;
+        font-size: 2vw;
+    }
+    input{
+        color: blue;
+        width: 45%;
+    }
+    #envoyer{
+        width: 20%;
+    }
+    .check{
+        display: none;
+    }
+}

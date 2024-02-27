@@ -1,0 +1,270 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#home{
+}
+body{
+    background-image: url('../image/banner-01.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar .contact{
+    background-color: rgba(236, 236, 207, 0.884);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 20px;
+}
+.navbar .contact .icone{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .contact .icone img{
+    width: 30px;
+}
+.navbar .contact .message input{
+    border: none;
+    padding-bottom: 15px;
+    border-bottom: 4px double rgb(255, 145, 0);
+    outline: none;
+    background-color: transparent;
+}
+.navbar .contact .message input::placeholder{
+    text-align: center;
+    color: rgb(255, 145, 0);
+}
+
+.navbar .navigation{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+    padding: 20px;
+    background-color: #222;
+    align-items: center;
+}
+.navbar .navigation .logo{
+    background-image: url('../image/deal-02.jpg');
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.navbar .navigation .menu{
+    width: 480px;
+    box-sizing: content-box;
+}
+.navbar .navigation .menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .navigation .menu ul li{
+    list-style-type: none;
+}
+.navbar .navigation .menu ul li a{
+    color: bisque;
+    text-decoration: none;
+}
+
+
+
+.body{
+    background-color: rgb(228, 225, 220);
+}
+.body .texte{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body .texte h1{
+    color: #555;
+    font-weight: bold;
+}
+.body .texte p{
+    color: #666;
+}
+.body .premier{
+    transition: 1s ease;
+    padding: 30px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body .premier #relative{
+    position: relative;
+    top: -60px;
+}
+.body .premier img{
+    border-radius: 10px;
+}
+.missions{
+    background-color: #494a4bbb;
+    color: white;
+    opacity: 0;
+    transition: 1s ease;
+    transition-duration: 5s;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.missions h1{
+    margin-bottom: 20px;
+    color: rgb(170, 240, 217);
+}
+
+.louer{
+    background-color: rgb(228, 225, 220);
+    padding-bottom: 50px;
+}
+.louer h1{
+    text-align: center;
+    padding: 15px;
+}
+.louer .propriete{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.louer .propriete::before{
+    background: red;
+}
+.louer .propriete:hover{
+    
+}
+.louer .propriete .one, .two, .tree, .four, .five, .six{
+    border-radius: 15px;
+    overflow: hidden;
+}
+.louer .propriete img{
+    width: 350px;
+}
+.louer .propriete img:hover{
+    transform: scale(1.5);
+    transition: 0.5s ease;
+}
+#louer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+    background-image: url('../image/property-04.jpg');
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    filter: drop-shadow(0 0 1px black);
+}
+
+.un, .deux, .trois, .quatre, .cinq, .fin{
+    margin: 15px 0;
+    box-shadow: 0 0 3px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: content-box;
+    padding: 15px;
+    text-align: center;
+    width: 360px;
+}
+.louer .propriete p{
+    color: #555;
+    padding-bottom: 20px;
+    border-bottom: 4px double #555;
+}
+.louer .propriete h3{
+    padding: 20px 0;
+    color: #555;
+}
+.louer .propriete .prix{
+    padding: 10px 0;
+}
+.louer .propriete .prix{
+    display: flex;
+    justify-content: center;
+}
+.louer .propriete .prix #premier{
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgba(255, 0, 0, 0.61);
+}
+.louer .propriete .prix #premier:hover{
+    color: black;
+}
+.new-background{
+    background-image: url('../image/deal-01.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.new-background .qualite{
+    background: rgba(0, 0, 0, 0.603);
+    text-align: center;
+    color: white;
+    padding: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.new-background .qualite h1{
+    margin-bottom: 25px;
+    color: skyblue;
+}
+
+.typewritter{
+    background-color: rgb(228, 225, 220);
+    padding:50px
+}
+.typewritter p{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-indent: 60px;
+    color: #888;
+}
+.typewritter p::after{
+    content: '';
+    border-right: 1px solid black;
+    animation: cursor 1s infinite;
+    padding-right: 10px;
+}
+@keyframes cursor {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* connexion */
+#connexion{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#connexion input{
+    margin: 10px 0;
+    border: none;
+    width: 30vw;
+    padding: 10px;
+    border-radius: 5px;
+}
+#connexion input::placeholder{
+    color: #222;
+    text-align: center;
+}
+#connexion #ok{
+    background-color: aqua;
+    width: 20vw;
+}
+#connexion #ok:hover{
+    transition: 0.1s ease;
+    transform: scale(1.2);
+}
